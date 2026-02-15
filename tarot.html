@@ -76,7 +76,7 @@
     </div>
     <button class="btn-divine" onclick="doTarot()">🔮 抽取塔罗牌</button>
     <div class="result-area" id="result"></div>
-    <div id="tipArea"></div>
+    <div id="tipArea"><script>document.addEventListener("DOMContentLoaded",function(){document.getElementById("tipArea").innerHTML=getTipBoxHTML()});</script></div>
     <div id="footer"></div>
 </div>
 <script src="js/common.js"></script>
