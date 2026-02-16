@@ -1,76 +1,28 @@
-# 灵算阁 - AI算命占卜工具
+# Free Chinese Fortune Telling Tools
 
-🔮 传承千年易学智慧，AI驱动的算命占卜平台
+> 🔗 **[Live Demo](https://rorojiao.github.io/fortune-tools/)** | Free, no ads, no signup required
 
-## 🌟 在线体验
+[![GitHub Pages](https://img.shields.io/badge/demo-live-brightgreen)](https://rorojiao.github.io/fortune-tools/)
 
-访问：**https://rorojiao.github.io/fortune-tools/**
+## Features
+- 🆓 100% Free - No hidden costs
+- 🔒 Privacy First - All processing happens in your browser
+- 📱 Mobile Friendly - Works on any device
+- 🌐 Multi-language Support
+- ⚡ Fast Loading - No framework dependencies
 
-## 📱 功能列表
+## Related Tools
+| Tool | Description |
+|------|-------------|
+| [🏠 ToolHub](https://rorojiao.github.io/tool-hub/) | All 20+ tools in one place |
+| [🔧 DevToolBox](https://rorojiao.github.io/devtoolbox/) | Developer Tools |
+| [💰 CalcSmart](https://rorojiao.github.io/calcsmart/) | Financial Calculators |
+| [🔮 MysticFate](https://rorojiao.github.io/mysticfate/) | Tarot & Zodiac |
+| [🧠 PsycheTest](https://rorojiao.github.io/psychetest/) | Personality Tests |
+| [❤️ LoveMatch](https://rorojiao.github.io/lovematch/) | Love Compatibility |
 
-### 1. 🏮 AI八字算命
-- 输入出生年月日时，精确排出四柱八字
-- 分析天干地支、五行旺衰、十神格局
-- 提供性格分析、运势预测、开运建议
-
-### 2. 🃏 塔罗牌占卜
-- 78张大小阿尔卡纳全牌阵
-- 支持每日一卡 / 三卡占卜
-- 正逆位详细解读，精美卡面动画
-
-### 3. 📜 姓名测分
-- 五格剖象法精准分析
-- 笔画数理、三才配置、五行属性
-- 综合评分系统
-
-### 4. 🌙 周公解梦
-- 丰富的梦境关键词库
-- 分类解读：动物、自然、人物、行为等
-- 提供行动建议和幸运元素
-
-### 5. ⭐ 今日运势
-- 融合星座 × 生肖双重算法
-- 支持今日/本周/本月运势查询
-- 爱情、事业、财运、健康全方位分析
-
-## ✨ 特色
-
-- ✅ **纯前端** - 无需后端，完全静态网页
-- ✅ **响应式设计** - 完美适配手机、平板、桌面
-- ✅ **古风UI** - 神秘优雅的视觉设计
-- ✅ **真实算法** - 八字、五格等采用传统算命算法
-- ✅ **SEO优化** - 完整的meta标签和结构化数据
-- ✅ **社交分享** - 支持微信、微博、Twitter分享
-
-## 🛠 技术栈
-
-- HTML5 / CSS3 / JavaScript (ES6+)
-- Google Fonts (中文字体)
-- Google Analytics (GA4)
-- 无任何框架依赖，纯原生开发
-
-## 📦 部署
-
-本项目部署在 GitHub Pages，完全免费托管。
-
-```bash
-git clone https://github.com/rorojiao/fortune-tools.git
-cd fortune-tools
-# 直接打开 index.html 即可本地预览
-```
-
-## 🎨 设计理念
-
-采用**神秘古风**设计风格：
-- 深色背景配合金色点缀
-- 渐变光效和粒子动画
-- 中文传统字体（马善政体、思源宋体）
-- 流畅的交互动画
-
-## 📄 许可
-
-仅供娱乐参考，命运掌握在自己手中 ☯
+## License
+MIT
 
 ---
-
-**灵算阁 © 2024** | 善行积德 · 命由心造
+Made with ❤️ | ⭐ Star this repo if you find it useful! | [View All Tools](https://rorojiao.github.io/tool-hub/)
