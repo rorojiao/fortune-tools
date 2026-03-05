@@ -1,36 +1,100 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
 <title>幸运数字计算 | Fortune Tools</title>
-<meta name="description" content="根据姓名和生日计算你的幸运数字。">
-<meta name="keywords" content="幸运数字,幸运号码">
-<link rel="canonical" href="https://rorojiao.github.io/fortune-tools/lucky-number.html">
-<link rel="stylesheet" href="style.css">
-<meta property="og:title" content="幸运数字计算 | Fortune Tools">
-<meta property="og:description" content="根据姓名和生日计算你的幸运数字。">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://rorojiao.github.io/fortune-tools/lucky-number.html">
-<meta name="twitter:card" content="summary">
+<meta content="根据姓名和生日计算你的幸运数字。" name="description"/>
+<meta content="幸运数字,幸运号码" name="keywords"/>
+<link href="https://rorojiao.github.io/fortune-tools/lucky-number.html" rel="canonical"/>
+<link href="style.css" rel="stylesheet"/>
+<meta content="幸运数字计算 | Fortune Tools" property="og:title"/>
+<meta content="根据姓名和生日计算你的幸运数字。" property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://rorojiao.github.io/fortune-tools/lucky-number.html" property="og:url"/>
+<meta content="summary" name="twitter:card"/>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebApplication","name":"幸运数字计算","url":"https://rorojiao.github.io/fortune-tools/lucky-number.html","description":"根据姓名和生日计算你的幸运数字。"}</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8346383990981353" crossorigin="anonymous"></script>
+<script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8346383990981353"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-8346383990981353",
     enable_page_level_ads: true
   });
 </script>
-</head>
+<meta content="https://fortune-tools.vercel.app/og-image.png" property="og:image"/><meta content="灵算阁" property="og:site_name"/><meta content="幸运数字计算 | Fortune Tools" name="twitter:title"/><meta content="根据姓名和生日计算你的幸运数字。" name="twitter:description"/><meta content="https://fortune-tools.vercel.app/og-image.png" name="twitter:image"/><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "幸运数字计算 | Fortune Tools",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "Web Browser",
+  "url": "https://rorojiao.github.io/lucky-number",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "灵算阁",
+    "url": "https://fortune-tools.vercel.app"
+  }
+}</script><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "这个工具免费吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "是的，本工具完全免费使用，无需注册账号。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "需要下载安装吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不需要，本工具是在线工具，直接在浏览器中使用即可。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "支持手机使用吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "支持，本工具适配移动设备，iPhone 和 Android 均可使用。"
+      }
+    }
+  ]
+}</script><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "灵算阁",
+      "item": "https://fortune-tools.vercel.app"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "幸运数字计算 | Fortune Tools",
+      "item": "https://rorojiao.github.io/lucky-number"
+    }
+  ]
+}</script></head>
 <body>
 <header class="header"><div class="header-inner">
-<a href="index.html" class="logo">🔮 Fortune Tools 算命工具</a>
+<a class="logo" href="index.html">🔮 Fortune Tools 算命工具</a>
 <button class="nav-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
 <nav class="nav"><a href="index.html">首页</a><a href="bazi.html">八字</a><a href="tarot.html">塔罗</a><a href="daily.html">运势</a><a href="dream.html">解梦</a><a href="zodiac.html">星座</a><a href="fengshui.html">风水</a><a href="numerology.html">数字命理</a><a href="iching.html">易经</a><a href="palm.html">手相</a></nav>
 </div></header>
 <div class="container">
-<h1>幸运数字</h1><p class="subtitle">根据姓名生日计算</p><div class="card"><div class="form-row"><div class="form-group"><label>姓名</label><input type="text" id="name" value="" placeholder="输入姓名"></div><div class="form-group"><label>生日</label><input type="date" id="bd"></div></div><button class="btn" onclick="calc()">计算</button><div id="r" style="margin-top:20px;font-size:18px;text-align:center"></div></div><script>function calc(){const n=document.getElementById("name").value,d=document.getElementById("bd").value;if(!n||!d)return alert("请填写");let sum=0;for(let i=0;i<n.length;i++)sum+=n.charCodeAt(i);d.replace(/-/g,"").split("").forEach(c=>sum+=+c);const lucky=((sum%9)||9);const colors=["红","橙","黄","绿","青","蓝","紫","粉","白"];document.getElementById("r").innerHTML="<p style=font-size:72px;color:#2563eb>"+lucky+"</p><p>🎯 你的幸运数字：<b>"+lucky+"</b></p><p>🎨 幸运颜色：<b>"+colors[lucky-1]+"色</b></p><p>📅 幸运日：每月<b>"+lucky+"日</b>和<b>"+(lucky+10)+"日</b></p>"}</script>
+<h1>幸运数字</h1><p class="subtitle">根据姓名生日计算</p><div class="card"><div class="form-row"><div class="form-group"><label>姓名</label><input id="name" placeholder="输入姓名" type="text" value=""/></div><div class="form-group"><label>生日</label><input id="bd" type="date"/></div></div><button class="btn" onclick="calc()">计算</button><div id="r" style="margin-top:20px;font-size:18px;text-align:center"></div></div><script>function calc(){const n=document.getElementById("name").value,d=document.getElementById("bd").value;if(!n||!d)return alert("请填写");let sum=0;for(let i=0;i<n.length;i++)sum+=n.charCodeAt(i);d.replace(/-/g,"").split("").forEach(c=>sum+=+c);const lucky=((sum%9)||9);const colors=["红","橙","黄","绿","青","蓝","紫","粉","白"];document.getElementById("r").innerHTML="<p style=font-size:72px;color:#2563eb>"+lucky+"</p><p>🎯 你的幸运数字：<b>"+lucky+"</b></p><p>🎨 幸运颜色：<b>"+colors[lucky-1]+"色</b></p><p>📅 幸运日：每月<b>"+lucky+"日</b>和<b>"+(lucky+10)+"日</b></p>"}</script>
 </div>
 <div class="more-tools" style="max-width:800px;margin:40px auto;padding:20px;background:#f8f9fa;border-radius:12px;text-align:center">
 <h3 style="margin-bottom:12px">🔗 更多免费工具</h3>
@@ -45,16 +109,10 @@
 <div style="text-align:center;margin:20px auto;max-width:728px;"><iframe data-aa="2427662" src="//acceptable.a-ads.com/2427662/?size=Adaptive" style="border:0;padding:0;width:100%;height:auto;min-height:60px;overflow:hidden;display:block;margin:auto;"></iframe></div>
 <footer class="footer">© 2026 Fortune Tools 算命工具</footer>
 <script>fetch("https://site-analytics.cap.1ktower.com/hit?s="+encodeURIComponent(location.hostname)+"&p="+encodeURIComponent(location.pathname)).catch(()=>{})</script>
-
 <!-- AdSense 响应式广告 -->
 <div style="text-align:center;margin:20px auto;max-width:970px;">
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-8346383990981353"
-       data-ad-slot="8614279503"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<ins class="adsbygoogle" data-ad-client="ca-pub-8346383990981353" data-ad-format="auto" data-ad-slot="8614279503" data-full-width-responsive="true" style="display:block"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
-</body>
+<section class="faq-section" style="max-width:800px;margin:40px auto;padding:20px;font-family:sans-serif"><h2>常见问题</h2><div class="faq-item" style="margin-bottom:16px"><h3 style="font-size:1em;margin:0 0 4px">这个工具免费吗？</h3><p style="margin:0;color:#555">是的，本工具完全免费使用，无需注册账号。</p></div><div class="faq-item" style="margin-bottom:16px"><h3 style="font-size:1em;margin:0 0 4px">需要下载安装吗？</h3><p style="margin:0;color:#555">不需要，本工具是在线工具，直接在浏览器中使用即可。</p></div><div class="faq-item" style="margin-bottom:16px"><h3 style="font-size:1em;margin:0 0 4px">支持手机使用吗？</h3><p style="margin:0;color:#555">支持，本工具适配移动设备，iPhone 和 Android 均可使用。</p></div></section></body>
 </html>
